@@ -15,7 +15,7 @@ class DS2AboutMe extends StatelessWidget {
   Widget bio(BuildContext context) {
     return SizedBox(
       child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
          
           SizedBox(width: MediaQuery.of(context).size.width * 0.08),
@@ -78,7 +78,7 @@ class DS2AboutMe extends StatelessWidget {
                  SelectableText(
                 DataValues.aboutMeSkillsTitle,
                 style: AppThemeData.darkTheme.textTheme.titleMedium),
-                for(int i=0;i<DataValues.aboutMeSkillsTitle.length;i++)...{
+                for(int i=0;i<DataValues.aboutMeSkillsDescriptionImage.length;i++)...{
                 TextPairs().type1(
                   heights: 0,
                   widget:Image.asset(DataValues.aboutMeSkillsDescriptionImage[i], height: 20.0, width: 20.0) ,
