@@ -7,7 +7,7 @@ class DataValues {
   static const String appDeveloper = 'Muhammad Irshad Cholakkal';
   static const String appPackage =
       'dev.muhammadirshadcholakkal.muhammadirshadcholakkal_dev';
-  static const String appVersion = '1.1.2';
+  static const String appVersion = '0.0.1';
   static const String appBuildNumber = '1';
 
   // External links
@@ -42,12 +42,11 @@ class DataValues {
 
   static const String aboutMeFullNameTitle = 'Full Name';
   static const String aboutMeFullNameDescription = 'Muhammad Irshad Cholakkal';
-  static const String aboutMeDobTitle = 'Birthday';
-  static const String aboutMeDobDescription = 'February 03,2000';
+  static const String aboutMeDobTitle = 'D.O.B';
+  static const String aboutMeDobDescription = 'August 20,2001';
   static const String aboutMeLanguageTitle = 'Languages';
   static const String aboutMeLanguageDescription = 'Malayalam (Native)\n'
-      'English (Professional)\n'
-      'Tamil (Professional)\n';
+      'English (Professional)\n';
   static const String aboutMeGenderTitle = 'Gender';
   static const String aboutMeGenderDescription = 'Male (He/Him/His)';
   static const String aboutMeLocationTitle = 'Current Locations';
@@ -64,8 +63,10 @@ class DataValues {
   static List<String> aboutMeSkillsDescriptionImage = [
     'assets/images/flutter.png',
     'assets/images/graphql.png',
+    'assets/images/icons8-two-gears-94.png',
     'assets/images/supabase.png',
     'assets/images/icons8-firebase-100.png',
+    "assets/images/PocketBase Backend.png",
     'assets/images/icons8-two-gears-94.png',
     'assets/images/git.png',
     'assets/images/mongodb.png',
@@ -75,10 +76,14 @@ class DataValues {
   static const List<String> aboutMeSkillsDescription = [
     "Flutter",
     "GraphQL",
+    "Rest API",
     "Supabase",
     "Firebase",
+    "Pocketbase",
     "State management (Bloc,Provider, GetX)",
     "Git & GitHub",
+    "MongoDB",
+    "Node.js",
   ];
 
   static const String aboutMeGoalTitle = 'Goal';

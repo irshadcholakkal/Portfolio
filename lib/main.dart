@@ -26,13 +26,12 @@ void main()async {
 await
 Firebase.initializeApp(
   options: const FirebaseOptions(
-  apiKey: "AIzaSyB8LFhbEjynC6vA7iANtXWoPP3NjBag2tQ",
-  authDomain: "portfolio-3e05e.firebaseapp.com",
-  projectId: "portfolio-3e05e",
-  storageBucket: "portfolio-3e05e.firebasestorage.app",
-  messagingSenderId: "316098728235",
-  appId: "1:316098728235:web:3fbd05de61f94927c1756e",
-  measurementId: "G-7VX1R1127K"
+  apiKey: "AIzaSyAbM2MJynv2VQlCBqGt82mReGVXPKbR4e0",
+  authDomain: "portfolio-3e1e4.firebaseapp.com",
+  projectId: "portfolio-3e1e4",
+  storageBucket: "portfolio-3e1e4.firebasestorage.app",
+  messagingSenderId: "520433744696",
+  appId: "1:520433744696:web:238af342e4693b7d249fcd"
 
   )
 );
